@@ -1,0 +1,15 @@
+{
+  "elasticSearch": {
+    "hosts":"http://localhost:9200",
+    "port": "9200",
+    "requestTimeout": 120000
+  },
+  "mysql": {
+    "host": "localhost",
+    "port": 3306,
+    "user": "nthung",
+    "password": "123",
+    "database": "todolist",
+    "connectionLimit": 1000
+  }
+}
